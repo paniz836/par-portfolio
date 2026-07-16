@@ -35,10 +35,9 @@ header{
 }
 
 .logo img{
-    height:5px;
+    height:50px;
     width:auto;
     display:block;
-    transition:0.3s ease;
 }
 
 .logo img:hover{
