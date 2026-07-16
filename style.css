@@ -54,14 +54,9 @@ nav a:hover{
 }
 
 main{
+    position:relative;
     width:100%;
     height:100vh;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    padding-top:80px;
 }
 
 .hero-text{
@@ -76,15 +71,13 @@ main{
 }
 
 .hero-text h1{
-    font-size:60px;
+    font-size:64px;
     font-weight:300;
-    letter-spacing:.5px;
-    margin-bottom:8px;
+    margin-bottom:10px;
 }
 
 .hero-text p{
     font-size:28px;
+    letter-spacing:2px;
     font-weight:300;
-    letter-spacing:3px;
-    text-align:center;
 }
