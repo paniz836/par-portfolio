@@ -34,10 +34,15 @@ header{
     z-index:100;
 }
 
-.logo{
-    font-size:28px;
-    font-weight:300;
-    letter-spacing:6px;
+.logo img{
+    height:48px;
+    width:auto;
+    display:block;
+    transition:0.3s ease;
+}
+
+.logo img:hover{
+    opacity:0.8;
 }
 
 nav a{
